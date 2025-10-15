@@ -60,7 +60,8 @@ Protoboard e Jumpers
 
 
 🔌 Esquema de Ligação
-![Diagrama de simulação do ESP32 com módulos](assets/Captura%20de%20tela%202025-10-14%20230724.png)
+<img width="956" height="852" alt="Captura de tela 2025-10-14 230724" src="https://github.com/user-attachments/assets/d64003af-a8b6-4232-863f-79931ae27d10" />
+
 
 
 🎥 Demonstração
