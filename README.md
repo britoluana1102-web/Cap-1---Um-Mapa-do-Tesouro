@@ -7,6 +7,7 @@ O sistema monitora a umidade do solo, temperatura ambiente, pH simulado e a pres
 
 A decisão de irrigar é baseada nos parâmetros específicos da cultura selecionada, como o tomate, por exemplo.
 
+
 ⚙️ Funcionalidades
 
 Leitura de Umidade e Temperatura: Utiliza o sensor DHT22 para monitorar as condições ambientais.
@@ -20,6 +21,7 @@ Decisão de Irrigação: Lógica baseada na cultura selecionada para determinar 
 Controle de Bomba com Histerese: Evita acionamentos frequentes da bomba.
 
 Interface LCD: Exibe informações em tempo real sobre o sistema.
+
 
 🌾 Sobre a Cultura
 
@@ -36,6 +38,7 @@ O pH está dentro da faixa ideal.
 Os nutrientes necessários já foram adicionados (botões pressionados).
 
 Cada planta tem exigências diferentes, garantindo eficiência no uso da água e produtividade da lavoura.
+
 
 📦 Materiais Utilizados
 
@@ -55,12 +58,16 @@ LCD I2C 16x2
 
 Protoboard e Jumpers
 
+
 🔌 Esquema de Ligação
+![Diagrama de simulação do ESP32 com módulos](assets/Captura%20de%20tela%202025-10-14%20230724.png)
+
 
 🎥 Demonstração
 
 Assista ao funcionamento do sistema no vídeo abaixo:
 https://youtu.be/rFgAwwCuDpw
+
 
 🛠️ Como Utilizar
 
@@ -79,45 +86,8 @@ Pressione os botões N, P e K para simular a adição de nutrientes.
 
 Observe o LCD para informações sobre temperatura, umidade, pH e status da bomba.
 
+
 👥 Autora
 
 Luana Brito da Silva
 
-LDR (Simulação de pH)
-
-Botões (N, P, K)
-
-Relé de 5V
-
-Bomba de Água 5V
-
-LCD I2C 16x2
-
-Protoboard e Jumpers
-
-🔌 Esquema de Ligação
-
-🎥 Demonstração
-
-Assista ao funcionamento do sistema no vídeo abaixo:
-https://youtu.be/rFgAwwCuDpw
-
-🛠️ Como Utilizar
-
-Clone o Repositório:
-
-git clone https://github.com/britoluana1102-web/Cap-1---Um-Mapa-do-Tesouro.git
-
-
-Conecte os Componentes conforme o esquema de ligação.
-
-Carregue o Código no ESP32 utilizando a IDE Arduino.
-
-Abra o Monitor Serial para visualizar os dados em tempo real.
-
-Pressione os Botões N, P e K para simular a adição de nutrientes.
-
-Observe o LCD para informações sobre temperatura, umidade, pH e status da bomba.
-
-👥 Autora
-Luana Brito da Silva
